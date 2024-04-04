@@ -7,6 +7,7 @@ import Month from './Month';
 import DefinedRanges from './DefinedRanges';
 import {DateRange, DefinedRange, NavigationAction, Setter,} from '../types';
 import {MARKERS} from './Markers';
+import {Locale} from "date-fns/locale";
 
 interface MenuProps {
   dateRange: DateRange;
